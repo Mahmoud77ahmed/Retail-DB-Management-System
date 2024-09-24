@@ -1,7 +1,3 @@
-For your GitHub project README, you can include the following sections to explain your SQL-based Retail Database Management System. Here’s a structured suggestion:
-
----
-
 # Retail Database Management System
 
 This project is a SQL-based Retail Database Management System, designed to manage and track product inventory, customer orders, and supplier information for a fictional retail company.
