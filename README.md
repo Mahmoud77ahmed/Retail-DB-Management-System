@@ -88,7 +88,3 @@ Stored procedures handle tasks such as adding new orders, updating stock levels,
 - **Sample Data**: Overview of the sample data used.
 - **Queries**: Examples and explanations of complex queries.
 - **Views and Stored Procedures**: Details on their purpose and usage.
-
----
-
-You can adjust and expand this as per your project specifics.
