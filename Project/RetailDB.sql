@@ -169,15 +169,26 @@ WHERE CustomerID = 1;
 GO
 
 -- Delete Operations
--- Delete discontinued product
+-- Delete from OrderDetails table first to avoid foreign key constraint violations
+DELETE FROM OrderDetails
+WHERE ProductID = 3;
+GO
+
+-- Now delete from the Products table
 DELETE FROM Products
 WHERE ProductID = 3;
 GO
 
--- Delete canceled order
+-- Delete from OrderDetails table for a specific order
+DELETE FROM OrderDetails
+WHERE OrderID = 2;
+GO
+
+-- Now delete the order from Orders table
 DELETE FROM Orders
 WHERE OrderID = 2;
 GO
+
 
 -- Select Operations
 -- Select all products
